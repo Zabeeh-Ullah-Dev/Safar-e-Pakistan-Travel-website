@@ -1,0 +1,1175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Safar-e-Pakistan — Premium Travel, Destinations & Itineraries</title>
+    <meta
+      name="description"
+      content="Discover Pakistan's breathtaking Karakoram peaks, rich Mughal heritage, vibrant cultural bazaars, regional culinary traditions, and tailored travel itineraries."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Safar-e-Pakistan" />
+    <meta property="og:title" content="Safar-e-Pakistan — Premium Travel, Destinations & Itineraries" />
+    <meta
+      property="og:description"
+      content="Discover Pakistan's breathtaking Karakoram peaks, rich Mughal heritage, vibrant cultural bazaars, regional culinary traditions, and tailored travel itineraries."
+    />
+    <meta property="og:image" content="Assets/passu_cones_hunza_1791880607796.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Safar-e-Pakistan — Premium Travel, Destinations & Itineraries" />
+    <meta
+      name="twitter:description"
+      content="Discover Pakistan's breathtaking Karakoram peaks, rich Mughal heritage, vibrant cultural bazaars, regional culinary traditions, and tailored travel itineraries."
+    />
+    <meta name="twitter:image" content="Assets/passu_cones_hunza_1791880607796.jpg" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Safar-e-Pakistan",
+        "description": "Premium travel and tourism guide celebrating Pakistan's natural landscapes, heritage landmarks, and regional hospitality.",
+        "areaServed": "Pakistan",
+        "url": "https://safarepakistan.travel",
+        "telephone": "+92-51-111-72327",
+        "sameAs": [
+          "https://instagram.com",
+          "https://facebook.com",
+          "https://twitter.com"
+        ]
+      }
+    </script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <!-- Scroll Reading Progress Bar -->
+    <div class="scroll-progress-bar" id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- ==========================================================================
+         Site Header & Navigation (Section 5)
+         ========================================================================== -->
+    <header class="site-header" id="top">
+      <div class="container nav-container">
+        <a href="#top" class="brand-logo" aria-label="Safar-e-Pakistan Home">
+          <div class="brand-mark" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M3 20h18L12 4 3 20z"></path>
+              <path d="M12 12l4 8"></path>
+              <path d="M12 12l-4 8"></path>
+            </svg>
+          </div>
+          <div class="brand-text-wrap">
+            <span class="brand-name">Safar-e-Pakistan</span>
+            <span class="brand-tagline">Curated Travel Journal</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#destinations" class="nav-link">Destinations</a></li>
+            <li><a href="#northern-pakistan" class="nav-link">Experiences</a></li>
+            <li><a href="#culture-heritage" class="nav-link">Culture</a></li>
+            <li><a href="#travel-guides" class="nav-link">Guides</a></li>
+            <li><a href="#about-us" class="nav-link">About</a></li>
+          </ul>
+        </nav>
+
+        <!-- Navigation Actions -->
+        <div class="nav-actions">
+          <button type="button" class="saved-btn" id="open-saved-drawer-btn" aria-label="View saved destinations" title="View saved destinations">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+            </svg>
+            <span>Saved</span>
+            <span class="saved-counter" aria-label="Saved items count">0</span>
+          </button>
+          <a href="#planner-section" class="btn btn-emerald">Plan Your Trip</a>
+          <button 
+            type="button" 
+            class="mobile-toggle" 
+            aria-label="Toggle navigation menu"
+            aria-expanded="false" 
+            aria-controls="mobile-nav-drawer"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-nav-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <ul class="mobile-links">
+        <li><a href="#destinations" class="mobile-link">Destinations</a></li>
+        <li><a href="#northern-pakistan" class="mobile-link">Northern Peaks & Experiences</a></li>
+        <li><a href="#culture-heritage" class="mobile-link">Culture & Heritage</a></li>
+        <li><a href="#taste-pakistan" class="mobile-link">Taste Pakistan</a></li>
+        <li><a href="#travel-guides" class="mobile-link">Guides & Itineraries</a></li>
+        <li><a href="#planner-section" class="mobile-link">Trip Planner</a></li>
+        <li><a href="#about-us" class="mobile-link">About Us</a></li>
+        <li><a href="#developer" class="mobile-link">Meet the Developer</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="#planner-section" class="btn btn-emerald" style="width: 100%; margin-bottom: 1rem;">
+          Plan Your Trip
+        </a>
+        <button type="button" class="btn btn-secondary-light" style="width: 100%;" onclick="window.openSavedDrawer()">
+          View Saved Collection (<span class="saved-counter">0</span>)
+        </button>
+      </div>
+    </div>
+    <div class="drawer-backdrop" aria-hidden="true"></div>
+
+    <main id="main-content">
+      <!-- ==========================================================================
+           Hero Section (Section 4)
+           ========================================================================== -->
+      <section class="hero-section" id="hero-section" aria-label="Hero Section">
+        <div class="hero-background-wrap" id="hero-background-wrap">
+          <img 
+            src="Assets/passu_cones_hunza_1791880607796.jpg" 
+            alt="Passu Cones Cathedral peaks and Karakoram mountain highway in northern Pakistan" 
+            class="hero-bg-img"
+            id="hero-bg-img"
+          />
+          <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container hero-content">
+          <span class="eyebrow eyebrow-light hero-animate-1">YOUR JOURNEY BEGINS HERE</span>
+          <h1 class="hero-headline hero-animate-2">
+            Pakistan is more beautiful <em>than you imagine.</em>
+          </h1>
+          <p class="hero-description hero-animate-3">
+            Traverse the legendary Karakoram highway, wander through royal Mughal citadels, 
+            discover turquoise glacial sanctuaries, and immerse yourself in an ancient land 
+            of boundless warmth and timeless hospitality.
+          </p>
+
+          <div class="hero-cta-group hero-animate-4">
+            <a href="#destinations" class="btn btn-emerald">Explore Pakistan</a>
+            <a href="#planner-section" class="btn btn-secondary-light">Find Your Adventure</a>
+          </div>
+
+          <div class="hero-location-tag hero-animate-4">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Passu Cones & Hunza Valley · Gilgit-Baltistan</span>
+          </div>
+
+          <!-- Editorial Quick Metrics with Animated Counters -->
+          <div class="hero-metrics hero-animate-5">
+            <div class="hero-metric-item">
+              <span class="hero-metric-num" data-target="5">5</span>
+              <span class="hero-metric-label">Of World's 14 Eight-Thousanders</span>
+            </div>
+            <div class="hero-metric-item">
+              <span class="hero-metric-num" data-target="7000" data-suffix="+">7,000+</span>
+              <span class="hero-metric-label">Alpine Glaciers in the North</span>
+            </div>
+            <div class="hero-metric-item">
+              <span class="hero-metric-num" data-target="5000" data-suffix=" Years">5,000 Years</span>
+              <span class="hero-metric-label">Of Indus Heritage</span>
+            </div>
+            <div class="hero-metric-item">
+              <span class="hero-metric-num" data-target="6">6</span>
+              <span class="hero-metric-label">UNESCO World Heritage Sites</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           Explore Pakistan — Destination Discovery (Section 6)
+           ========================================================================== -->
+      <section class="section-padding destinations-section" id="destinations">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow">DISCOVERY DIRECTORY</span>
+            <h2 class="section-title">Explore Iconic Destinations</h2>
+            <p class="section-subtitle">
+              From the colossal granite towers of Gilgit-Baltistan and alpine valleys of Khyber Pakhtunkhwa 
+              to the historic heartlands of Punjab, Sindh's ancient ruins, and Balochistan's rugged coastlines.
+            </p>
+          </div>
+
+          <!-- Search & Filter Controls -->
+          <div class="search-filter-bar">
+            <div class="search-input-wrap">
+              <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input 
+                type="search" 
+                id="destination-search-input" 
+                class="search-input" 
+                placeholder="Search by destination name, valley, province, or keyword..."
+                aria-label="Search destinations"
+              />
+            </div>
+
+            <!-- Functional Interactive Filters -->
+            <div class="filter-tabs-container" role="toolbar" aria-label="Destination category filters">
+              <button type="button" class="filter-btn active" data-category="all">All Destinations</button>
+              <button type="button" class="filter-btn" data-category="Mountains">Mountains</button>
+              <button type="button" class="filter-btn" data-category="Valleys">Valleys</button>
+              <button type="button" class="filter-btn" data-category="Lakes">Lakes</button>
+              <button type="button" class="filter-btn" data-category="Beaches">Beaches</button>
+              <button type="button" class="filter-btn" data-category="Historical Places">Historical Places</button>
+              <button type="button" class="filter-btn" data-category="Cultural Experiences">Cultural Experiences</button>
+              <button type="button" class="filter-btn" data-category="Adventure Tourism">Adventure Tourism</button>
+            </div>
+          </div>
+
+          <div class="filter-results-status">
+            <span id="results-count">Showing 12 destinations</span>
+            <span style="font-size: 0.8rem; color: var(--charcoal-400);">Click any card to inspect full travel details & seasons</span>
+          </div>
+
+          <!-- Dynamic Destination Cards Grid -->
+          <div class="destinations-grid" id="destinations-grid">
+            <!-- Populated via JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           Signature Experience — Northern Pakistan (Section 8)
+           ========================================================================== -->
+      <section class="section-padding northern-section" id="northern-pakistan">
+        <div class="container">
+          <div class="northern-editorial-hero reveal-on-scroll">
+            <div class="editorial-story-content">
+              <span class="eyebrow eyebrow-light">SIGNATURE EXPEDITION</span>
+              <h2 class="editorial-headline">
+                Where the mountains <em>touch the sky.</em>
+              </h2>
+              <p class="editorial-prose">
+                Northern Pakistan is a dramatic convergence of three of the Earth's greatest mountain ranges: 
+                the Himalayas, the Karakoram, and the Hindu Kush. Here, centuries-old stone forts preside 
+                over apricot orchards nourished by meltwater channels hand-carved into sheer cliffs. 
+                Whether paddling on the turquoise expanse of Attabad Lake or gazing up at the sheer 
+                Raikot wall of Nanga Parbat, every vista inspires humble reverence.
+              </p>
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <button type="button" class="btn btn-emerald" id="discover-hunza-btn">
+                  Discover Hunza Valley
+                </button>
+                <a href="#planner-section" class="btn btn-secondary-light">
+                  Plan Northern Route
+                </a>
+              </div>
+            </div>
+
+            <div class="editorial-visual-frame">
+              <img 
+                src="Assets/passu_cones_hunza_1791880607796.jpg" 
+                alt="Passu Cones serrated peaks rising above Hunza Valley and the Karakoram Highway" 
+                loading="lazy"
+              />
+              <div class="visual-caption">
+                <strong>Hunza Valley & Passu Cones</strong> · Cathedral Peaks & Karakoram Panorama
+              </div>
+            </div>
+          </div>
+
+          <!-- Northern Highlights Grid -->
+          <div class="section-header">
+            <span class="eyebrow eyebrow-light">ALPINE PROVINCES</span>
+            <h3 class="section-title light">The Great Northern Arc</h3>
+            <p class="section-subtitle light">
+              Immerse yourself in mountain sightseeing, glacial lakeside camping, high-altitude road journeys, 
+              and organic culinary traditions.
+            </p>
+          </div>
+
+          <div class="northern-highlights-grid">
+            <article class="northern-card reveal-on-scroll">
+              <div class="northern-img-wrap">
+                <img src="Assets/skardu_katpana_desert_1791880708546.jpg" alt="Katpana Cold Desert sand dunes in Skardu with snow peaks" loading="lazy" />
+              </div>
+              <div class="northern-body">
+                <h4 class="northern-title">Skardu & Baltistan</h4>
+                <div class="northern-meta">Gilgit-Baltistan · 6 – 8 Days</div>
+                <p class="northern-text">
+                  Where high-altitude white dunes brush against glacial lakes and the Karakoram wilderness.
+                </p>
+                <div class="northern-activities-list">
+                  <span>Cold Desert Camping</span>
+                  <span>Shangrila Boat Ride</span>
+                  <span>Deosai Safari</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="northern-card reveal-on-scroll">
+              <div class="northern-img-wrap">
+                <img src="Assets/fairy_meadows_nanga_1791880740702.jpg" alt="Fairy Meadows pine meadows directly beneath Nanga Parbat 8,126m" loading="lazy" />
+              </div>
+              <div class="northern-body">
+                <h4 class="northern-title">Fairy Meadows</h4>
+                <div class="northern-meta">Gilgit-Baltistan · 3 – 4 Days</div>
+                <p class="northern-text">
+                  Alpine pine meadows resting directly under the sheer 8,126m Raikot Face of Nanga Parbat.
+                </p>
+                <div class="northern-activities-list">
+                  <span>Jeep Track Adventure</span>
+                  <span>Base Camp Trek</span>
+                  <span>Cabin Fires</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="northern-card reveal-on-scroll">
+              <div class="northern-img-wrap">
+                <img src="Assets/swat_kalam_valley_1791880775323.jpg" alt="Swat and Kalam emerald river valley and pine forests" loading="lazy" />
+              </div>
+              <div class="northern-body">
+                <h4 class="northern-title">Swat & Kalam</h4>
+                <div class="northern-meta">Khyber Pakhtunkhwa · 3 – 5 Days</div>
+                <p class="northern-text">
+                  Pristine river gorges, dense deodar forests, alpine lakes, and Buddhist archaeological ruins.
+                </p>
+                <div class="northern-activities-list">
+                  <span>Malam Jabba Skiing</span>
+                  <span>Ushu Forest Trail</span>
+                  <span>River Trout</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           Interactive Travel Planner (Section 7)
+           ========================================================================== -->
+      <section class="section-padding planner-section" id="planner-section">
+        <div class="container">
+          <div class="section-header center reveal-on-scroll">
+            <span class="eyebrow">CUSTOM DISCOVERY ENGINE</span>
+            <h2 class="section-title">Interactive Travel Planner</h2>
+            <p class="section-subtitle">
+              Specify your starting city, travel style, companions, and duration. 
+              Our planning engine generates tailored destination suggestions, a suggested day-by-day 
+              itinerary, and realistic budget estimates in Pakistani Rupees (PKR).
+            </p>
+          </div>
+
+          <div class="planner-container-box reveal-on-scroll">
+            <form id="travel-planner-form" novalidate>
+              <div class="planner-form-grid">
+                <div class="form-group">
+                  <label for="plan-start-city" class="form-label">Starting City</label>
+                  <select id="plan-start-city" class="form-select" required>
+                    <option value="Islamabad">Islamabad / Rawalpindi</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Quetta">Quetta</option>
+                    <option value="Multan">Multan</option>
+                    <option value="Faisalabad">Faisalabad</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="plan-region" class="form-label">Target Region or Province</label>
+                  <select id="plan-region" class="form-select" required>
+                    <option value="all">Discover Any Region in Pakistan</option>
+                    <option value="Gilgit-Baltistan">Gilgit-Baltistan (Karakoram & Peaks)</option>
+                    <option value="Khyber Pakhtunkhwa">Khyber Pakhtunkhwa (Swat, Kumrat, Chitral)</option>
+                    <option value="Punjab">Punjab (Lahore, Heritage, Salt Range)</option>
+                    <option value="Sindh">Sindh (Mohenjo-daro, Makli, Indus Coast)</option>
+                    <option value="Balochistan">Balochistan (Hingol, Makran, Ziarat)</option>
+                    <option value="Azad Jammu and Kashmir">Azad Jammu & Kashmir (Neelum Valley)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="plan-style" class="form-label">Travel Style</label>
+                  <select id="plan-style" class="form-select" required>
+                    <option value="Adventure">Adventure & Mountain Trekking</option>
+                    <option value="Family Trip">Family Vacation & Scenic Retreat</option>
+                    <option value="Cultural Tour">Cultural & Heritage Immersion</option>
+                    <option value="Honeymoon">Romantic Escape & Honeymoon</option>
+                    <option value="Friends' Trip">Friends' Road Expedition</option>
+                    <option value="Weekend Escape">Quick Weekend Escape</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="plan-travelers" class="form-label">Number of Travelers</label>
+                  <select id="plan-travelers" class="form-select" required>
+                    <option value="1">Solo Traveler (1)</option>
+                    <option value="2" selected>Couple / Two Travelers (2)</option>
+                    <option value="4">Small Family / Group (3 – 5)</option>
+                    <option value="7">Large Group (6+)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="plan-duration" class="form-label">Trip Duration</label>
+                  <select id="plan-duration" class="form-select" required>
+                    <option value="3">3 Days (Long Weekend)</option>
+                    <option value="5" selected>5 Days (Standard Valley Tour)</option>
+                    <option value="7">7 Days (Full Northern Route)</option>
+                    <option value="10">10 Days (Comprehensive Circuit)</option>
+                    <option value="14">14 Days (Grand Expedition)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="plan-budget" class="form-label">Budget Tier (in PKR)</label>
+                  <select id="plan-budget" class="form-select" required>
+                    <option value="budget">Budget · Guesthouses & Shared Co-Travel</option>
+                    <option value="comfort" selected>Comfort · Quality Hotels & Private Car</option>
+                    <option value="luxury">Luxury · Boutique Lodges, Resorts & Chauffeur</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="planner-submit-bar">
+                <p class="planner-disclaimer">
+                  * All itinerary suggestions and budgets are illustrative estimates calculated in Pakistani Rupees (PKR) 
+                  based on average market standards. We do not display live hotel booking inventories or real-time transport schedules.
+                </p>
+                <button type="submit" class="btn btn-emerald">Generate Discovery Itinerary</button>
+              </div>
+            </form>
+
+            <!-- Dynamic Results Container -->
+            <div id="planner-results-container">
+              <!-- Rendered via JavaScript after submission -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           Pakistani Culture & Heritage (Section 9)
+           ========================================================================== -->
+      <section class="section-padding culture-section" id="culture-heritage">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow">LIVING CIVILIZATION</span>
+            <h2 class="section-title">Heritage, Art & Traditions</h2>
+            <p class="section-subtitle">
+              Pakistan is a vibrant tapestry of regional identities—from ancient Indus settlements 
+              and Mughal architectural poetry to centuries-old craft guilds and the mystical rhythms of Sufi shrines.
+            </p>
+          </div>
+
+          <div class="culture-editorial-grid">
+            <article class="culture-feature-card reveal-on-scroll">
+              <div class="culture-img-box">
+                <img 
+                  src="Assets/badshahi_mosque_lahore_1791880582096.jpg" 
+                  alt="Mughal architectural domes and courtyards of the Badshahi Mosque in Lahore" 
+                  loading="lazy" 
+                />
+              </div>
+              <div class="culture-body">
+                <span class="culture-location-tag">Lahore · Walled City</span>
+                <h3 class="culture-title">Mughal & Imperial Grandeur</h3>
+                <p class="culture-description">
+                  The Badshahi Mosque, built in 1673 with deep red sandstone and carved marble domes, 
+                  stands opposite the historic Lahore Fort. Within the 12 historic gates, centuries of poetry, 
+                  frescoes, and artisanal royal baths endure.
+                </p>
+                <div class="culture-highlights-row">
+                  <span>UNESCO Heritage</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Sheesh Mahal Mirrors</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Wazir Khan Frescoes</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="culture-feature-card reveal-on-scroll">
+              <div class="culture-img-box">
+                <img 
+                  src="Assets/peshawar_qissa_khwani_bazar.jpg" 
+                  alt="Qissa Khwani Bazaar in Peshawar" 
+                  loading="lazy" 
+                />
+              </div>
+              <div class="culture-body">
+                <span class="culture-location-tag">Peshawar · Qissa Khwani</span>
+                <h3 class="culture-title">Centuries-Old Living Bazaars</h3>
+                <p class="culture-description">
+                  For centuries, Central Asian Silk Road caravaneers gathered at the 'Bazaar of Storytellers' 
+                  over steaming bowls of green cardamom kahwa, trading news from Samarkand to Delhi amid the 
+                  clatter of brass artisans and handmade Peshawari chappal makers.
+                </p>
+                <div class="culture-highlights-row">
+                  <span>Ancient Silk Road Stop</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Kahwa Teahouses</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Artisanal Leatherwork</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="culture-feature-card reveal-on-scroll">
+              <div class="culture-img-box">
+                <img 
+                  src="Assets/mohenjo_daro_stupa_1791880653157.jpg" 
+                  alt="Ancient Indus baked brick architecture and Buddhist stupa at Mohenjo-daro Sindh" 
+                  loading="lazy" 
+                />
+              </div>
+              <div class="culture-body">
+                <span class="culture-location-tag">Sindh · Indus Basin</span>
+                <h3 class="culture-title">Ajrak, Blue Pottery & Indigo</h3>
+                <p class="culture-description">
+                  In Bhit Shah and Hala, artisans utilize wooden block-printing stamps carved from acacia wood, 
+                  applying natural indigo and mineral red dyes to produce the revered Sindhi Ajrak. Multan's 
+                  Kashigari blue pottery preserves centuries of Persian and Central Asian glazed tile traditions.
+                </p>
+                <div class="culture-highlights-row">
+                  <span>Indigenous Block-Printing</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Glazed Blue Ceramics</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Ralli Quilting</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="culture-feature-card reveal-on-scroll">
+              <div class="culture-img-box">
+                <img 
+                  src="Assets/kumrat_valley_forest_1791880948439.jpg" 
+                  alt="Mountain valleys and traditional timber architecture in northern Pakistan" 
+                  loading="lazy" 
+                />
+              </div>
+              <div class="culture-body">
+                <span class="culture-location-tag">Gilgit-Baltistan & Chitral</span>
+                <h3 class="culture-title">Timber Forts & Mountain Harmony</h3>
+                <p class="culture-description">
+                  Baltit and Altit Forts in Hunza feature 900-year-old earthquake-resilient timber-and-stone cator 
+                  masonry inspired by Tibetan architecture. In Kalash valleys, unique polytheistic festivals, 
+                  handwoven black wool dresses, and vibrant beadwork celebrate nature and community.
+                </p>
+                <div class="culture-highlights-row">
+                  <span>Cator & Dhajji Dewari</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Kalash Traditions</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Rubab & Folk Melody</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           Local Food Discovery — Taste Pakistan (Section 10)
+           ========================================================================== -->
+      <section class="section-padding food-section" id="taste-pakistan">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow eyebrow-light">CULINARY LANDSCAPES</span>
+            <h2 class="section-title light">Taste Pakistan</h2>
+            <p class="section-subtitle light">
+              Discover the profound flavors of Pakistani regional cooking—slow-cooked spiced stews, 
+              skewered meats roasted over wild embers, high-altitude apricot delicacies, and fragrant basmati rice dishes.
+            </p>
+          </div>
+
+          <div class="food-grid" id="food-grid">
+            <!-- Populated via JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           Travel Guides & Sample Itineraries (Section 11)
+           ========================================================================== -->
+      <section class="section-padding itineraries-section" id="travel-guides">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow">CURATED EXPEDITION BLUEPRINTS</span>
+            <h2 class="section-title">Sample Itineraries & Practical Guides</h2>
+            <p class="section-subtitle">
+              Detailed, realistic day-by-day travel routes crafted by seasoned Pakistani travel writers. 
+              Review activities, suggested transit times, and estimated costs in PKR.
+            </p>
+          </div>
+
+          <div class="itineraries-grid" id="itineraries-grid">
+            <!-- Populated via JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           About Us & Responsible Travel
+           ========================================================================== -->
+      <section class="section-padding about-section" id="about-us">
+        <div class="container">
+          <div class="about-grid reveal-on-scroll">
+            <div class="about-text-col">
+              <span class="eyebrow">OUR ETHOS & PURPOSE</span>
+              <h2 class="section-title">Authentic, Responsible Tourism in Pakistan</h2>
+              <p class="about-prose">
+                Safar-e-Pakistan was created to illuminate the extraordinary depth, safety, and breathtaking beauty 
+                of Pakistan's landscapes and cultures. We believe in travel that enriches both the visitor and the host 
+                community—fostering environmental preservation, supporting local artisans, and celebrating genuine connections.
+              </p>
+
+              <div class="ethics-list">
+                <div class="ethics-item">
+                  <div class="ethics-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Leave No Trace</h4>
+                    <p>Respect pristine glacial lakes and alpine trails. Pack out all trash and reduce single-use plastics.</p>
+                  </div>
+                </div>
+
+                <div class="ethics-item">
+                  <div class="ethics-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Support Local Host Economies</h4>
+                    <p>Hire indigenous mountain guides, stay in community-run guesthouses, and purchase directly from women's cooperatives.</p>
+                  </div>
+                </div>
+
+                <div class="ethics-item">
+                  <div class="ethics-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" y1="8" x2="12" y2="12"></line>
+                      <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Respect Cultural Sensitivities</h4>
+                    <p>Dress modestly when visiting sacred mosques and shrines, and always request permission before taking portraits.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-image-collage">
+              <div class="collage-img">
+                <img 
+                  src="Assets/neelum_ratti_gali_1791880813658.jpg" 
+                  alt="Turquoise waters of Ratti Gali Lake in Neelum Valley, Azad Kashmir" 
+                  loading="lazy" 
+                />
+              </div>
+              <div class="collage-img">
+                <img 
+                  src="Assets/rohtas_fort_jhelum_1791880855711.jpg" 
+                  alt="Colossal historic stone walls of Rohtas Fort in Punjab, Pakistan" 
+                  loading="lazy" 
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           About the Developer Section
+           ========================================================================== -->
+      <section class="section-padding developer-section" id="developer" aria-label="About the Developer">
+        <!-- Ambient Glowing Aura Orbs -->
+        <div class="dev-ambient-glow dev-ambient-glow-1" aria-hidden="true"></div>
+        <div class="dev-ambient-glow dev-ambient-glow-2" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="section-header center dev-section-header">
+            <span class="eyebrow eyebrow-dev">
+              <span class="eyebrow-sparkle" aria-hidden="true">✦</span>
+              ENGINEERING & CREATIVE CRAFTSMANSHIP
+            </span>
+            <h2 class="section-title">The Architect Behind Safar-e-Pakistan</h2>
+            <p class="section-subtitle">
+              Safar-e-Pakistan is designed, architected, and coded by Zabeeh Ullah — uniting modern full-stack web standards, 
+              kinetic micro-interactions, editorial typography, and an enduring tribute to the heritage of Pakistan.
+            </p>
+          </div>
+
+          <div class="developer-card reveal-on-scroll" id="developer-card">
+            <!-- Shimmering Accent Beam -->
+            <div class="dev-card-shimmer" aria-hidden="true"></div>
+
+            <!-- Left Media & Highlights Column -->
+            <div class="developer-media-col">
+              <div class="developer-photo-wrapper">
+                <img 
+                  src="Assets/zabeeh_avatar.png" 
+                  alt="Zabeeh Ullah - Full-Stack Developer & UI/UX Craftsman" 
+                  class="developer-photo" 
+                  loading="lazy" 
+                />
+                <div class="developer-verified-badge" title="Verified Creator & Full-Stack Engineer">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                  </svg>
+                  <span>Lead Developer</span>
+                </div>
+                <div class="developer-status-badge">
+                  <span class="status-pulse-dot" aria-hidden="true"></span>
+                  <span>Available for Global Roles & Projects</span>
+                </div>
+              </div>
+
+              <!-- Quick Direct Contact Chips -->
+              <div class="developer-quick-contacts" aria-label="Quick contact copy buttons">
+                <button type="button" class="quick-copy-chip copy-trigger" data-copy="zabeehullah2005@gmail.com" title="Copy email address">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span>Copy Email</span>
+                </button>
+                <button type="button" class="quick-copy-chip copy-trigger" data-copy="+923070509981" title="Copy WhatsApp phone number">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span>Copy Phone</span>
+                </button>
+              </div>
+
+              <!-- Key Developer Benchmarks -->
+              <div class="dev-quick-stats">
+                <div class="dev-stat-item">
+                  <span class="dev-stat-value">100%</span>
+                  <span class="dev-stat-label">Handcrafted Code</span>
+                </div>
+                <div class="dev-stat-item">
+                  <span class="dev-stat-value">A+</span>
+                  <span class="dev-stat-label">Accessibility & SEO</span>
+                </div>
+                <div class="dev-stat-item">
+                  <span class="dev-stat-value">60 FPS</span>
+                  <span class="dev-stat-label">Smooth Motion</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Content & Links Column -->
+            <div class="developer-content-col">
+              <div class="developer-header-info">
+                <div class="developer-badge-row">
+                  <span class="developer-role-tag">Full-Stack Web Developer · UI/UX Specialist</span>
+                  <span class="dev-status-pill">
+                    <span class="status-pulse-dot" aria-hidden="true"></span>
+                    Open for Work
+                  </span>
+                </div>
+                <h3 class="developer-name">Zabeeh Ullah</h3>
+                <p class="developer-location">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Pakistan · Open to Global Collaborations & Remote Roles</span>
+                </p>
+              </div>
+
+              <p class="developer-bio">
+                A software engineer and creative frontend architect committed to building bespoke, 
+                high-performance digital products and memorable interactive experiences. <em>Safar-e-Pakistan</em> reflects 
+                an obsession with meticulous editorial typography, performance optimization, responsive precision, and 
+                celebrating the natural wonder, culture, and hospitality of Pakistan.
+              </p>
+
+              <!-- Technical Skill Tags -->
+              <div class="developer-skills-list" aria-label="Technical skills & specializations">
+                <span class="skill-pill">Full-Stack Development</span>
+                <span class="skill-pill">Vanilla JavaScript / ESNext</span>
+                <span class="skill-pill">UI/UX Architecture</span>
+                <span class="skill-pill">Motion & Microinteractions</span>
+                <span class="skill-pill">Performance & Core Web Vitals</span>
+                <span class="skill-pill">Responsive Design & a11y</span>
+              </div>
+
+              <!-- Interactive Developer Profiles & Socials (6 Cards Grid) -->
+              <div class="developer-socials-grid" aria-label="Developer channels, portfolio, and contact links">
+                <!-- 1. LinkedIn -->
+                <a href="https://www.linkedin.com/in/zabeeh-ullah-1b6094382/" target="_blank" rel="noopener noreferrer" class="dev-social-card" title="Connect with Zabeeh Ullah on LinkedIn">
+                  <div class="dev-social-icon linkedin-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                  </div>
+                  <div class="dev-social-info">
+                    <div class="dev-social-topline">
+                      <span class="dev-social-label">LinkedIn</span>
+                      <span class="dev-badge-tiny">Network</span>
+                    </div>
+                    <span class="dev-social-handle">in/zabeeh-ullah-1b6094382</span>
+                  </div>
+                  <div class="dev-social-action" aria-hidden="true">
+                    <svg class="dev-social-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </a>
+
+                <!-- 2. GitHub -->
+                <a href="https://github.com/Zabeeh-Ullah-Dev" target="_blank" rel="noopener noreferrer" class="dev-social-card" title="Explore Zabeeh Ullah on GitHub">
+                  <div class="dev-social-icon github-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                  </div>
+                  <div class="dev-social-info">
+                    <div class="dev-social-topline">
+                      <span class="dev-social-label">GitHub</span>
+                      <span class="dev-badge-tiny">Code</span>
+                    </div>
+                    <span class="dev-social-handle">@Zabeeh-Ullah-Dev</span>
+                  </div>
+                  <div class="dev-social-action" aria-hidden="true">
+                    <svg class="dev-social-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </a>
+
+                <!-- 3. WhatsApp -->
+                <div class="dev-social-card has-copy-btn">
+                  <a href="https://wa.me/923070509981" target="_blank" rel="noopener noreferrer" class="dev-social-link-area" title="Chat directly with Zabeeh Ullah on WhatsApp">
+                    <div class="dev-social-icon whatsapp-icon" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                      </svg>
+                    </div>
+                    <div class="dev-social-info">
+                      <div class="dev-social-topline">
+                        <span class="dev-social-label">WhatsApp</span>
+                        <span class="dev-badge-tiny green-badge">Direct Chat</span>
+                      </div>
+                      <span class="dev-social-handle">+92 307 0509981</span>
+                    </div>
+                  </a>
+                  <button type="button" class="dev-card-copy-btn copy-trigger" data-copy="+923070509981" title="Copy WhatsApp number" aria-label="Copy WhatsApp number to clipboard">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- 4. Direct Email -->
+                <div class="dev-social-card has-copy-btn">
+                  <a href="mailto:zabeehullah2005@gmail.com" class="dev-social-link-area" title="Send an email to Zabeeh Ullah">
+                    <div class="dev-social-icon email-icon" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                      </svg>
+                    </div>
+                    <div class="dev-social-info">
+                      <div class="dev-social-topline">
+                        <span class="dev-social-label">Direct Email</span>
+                        <span class="dev-badge-tiny gold-badge">Official</span>
+                      </div>
+                      <span class="dev-social-handle">zabeehullah2005@gmail.com</span>
+                    </div>
+                  </a>
+                  <button type="button" class="dev-card-copy-btn copy-trigger" data-copy="zabeehullah2005@gmail.com" title="Copy email address" aria-label="Copy email address to clipboard">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- 5. Portfolio -->
+                <a href="https://zabeeh-ullah.netlify.app/#" target="_blank" rel="noopener noreferrer" class="dev-social-card" title="Visit Zabeeh Ullah's Portfolio Website">
+                  <div class="dev-social-icon portfolio-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="2" y1="12" x2="22" y2="12"></line>
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                  </div>
+                  <div class="dev-social-info">
+                    <div class="dev-social-topline">
+                      <span class="dev-social-label">Interactive Portfolio</span>
+                      <span class="dev-badge-tiny cyan-badge">Live Works</span>
+                    </div>
+                    <span class="dev-social-handle">zabeeh-ullah.netlify.app</span>
+                  </div>
+                  <div class="dev-social-action" aria-hidden="true">
+                    <svg class="dev-social-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </a>
+
+                <!-- 6. Curriculum Vitae -->
+                <a href="https://zabeeh-ullah-dev.github.io/zabeeh-ullah-cv/" target="_blank" rel="noopener noreferrer" class="dev-social-card" title="View Zabeeh Ullah's Curriculum Vitae">
+                  <div class="dev-social-icon resume-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                      <line x1="16" y1="13" x2="8" y2="13"></line>
+                      <line x1="16" y1="17" x2="8" y2="17"></line>
+                      <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                  </div>
+                  <div class="dev-social-info">
+                    <div class="dev-social-topline">
+                      <span class="dev-social-label">Curriculum Vitae</span>
+                      <span class="dev-badge-tiny gold-badge">Live CV</span>
+                    </div>
+                    <span class="dev-social-handle">zabeeh-ullah-cv (Resume)</span>
+                  </div>
+                  <div class="dev-social-action" aria-hidden="true">
+                    <svg class="dev-social-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Quick Direct Contact Actions -->
+              <div class="developer-cta-row">
+                <a href="https://wa.me/923070509981" target="_blank" rel="noopener noreferrer" class="btn btn-emerald dev-cta-btn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+                  </svg>
+                  <span>Chat on WhatsApp</span>
+                </a>
+                <a href="mailto:zabeehullah2005@gmail.com" class="btn btn-gold dev-cta-btn">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <span>Email Zabeeh</span>
+                </a>
+                <a href="https://zabeeh-ullah-dev.github.io/zabeeh-ullah-cv/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary-light dev-cta-btn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                  </svg>
+                  <span>Curriculum Vitae</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==========================================================================
+         Footer & Newsletter (Section 14)
+         ========================================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <!-- Newsletter Subscription -->
+        <div class="footer-newsletter-box reveal-on-scroll">
+          <div class="newsletter-info">
+            <span class="eyebrow eyebrow-light">JOURNAL DISPATCHES</span>
+            <h3>Receive Authentic Stories from Pakistan</h3>
+            <p>Seasonal travel recommendations, road status guides, and cultural profiles sent to your inbox.</p>
+          </div>
+          <form class="newsletter-form" id="newsletter-form" novalidate>
+            <div class="newsletter-input-group">
+              <input 
+                type="email" 
+                id="newsletter-email" 
+                class="newsletter-input" 
+                placeholder="Enter your email address..." 
+                aria-label="Email address for travel newsletter"
+                required 
+              />
+              <button type="submit" class="btn btn-emerald">Subscribe</button>
+            </div>
+            <div id="newsletter-feedback" class="newsletter-feedback" role="alert" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <div class="footer-main-grid">
+          <div class="footer-brand-col">
+            <div class="brand-logo">
+              <div class="brand-mark" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M3 20h18L12 4 3 20z"></path>
+                  <path d="M12 12l4 8"></path>
+                </svg>
+              </div>
+              <div class="brand-text-wrap">
+                <span class="brand-name">Safar-e-Pakistan</span>
+                <span class="brand-tagline">Discover Pakistan</span>
+              </div>
+            </div>
+            <p>
+              An independent curated digital travel publication dedicated to celebrating the sublime landscapes, 
+              ancient monuments, diverse cuisines, and generous hospitality of Pakistan.
+            </p>
+            <div class="footer-socials reveal-on-scroll" aria-label="Social media links">
+              <a href="https://www.linkedin.com/in/zabeeh-ullah-1b6094382/" class="social-icon-btn" aria-label="Connect with Zabeeh Ullah on LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+              <a href="https://wa.me/923070509981" class="social-icon-btn" aria-label="Message Zabeeh Ullah on WhatsApp" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M20.52 3.48A11.86 11.86 0 0 0 12.05 0C5.48 0 .13 5.34.13 11.92c0 2.1.55 4.15 1.6 5.96L0 24l6.28-1.65a11.9 11.9 0 0 0 5.76 1.47h.01c6.57 0 11.92-5.35 11.92-11.92 0-3.18-1.24-6.17-3.45-8.42zM12.05 21.8h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.73.98 1-3.64-.24-.37a9.87 9.87 0 0 1-1.52-5.26c0-5.47 4.45-9.91 9.92-9.91a9.85 9.85 0 0 1 7.01 2.91 9.85 9.85 0 0 1 2.9 7c0 5.47-4.45 9.92-9.93 9.92zm5.44-7.43c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.23-.65.08-.3-.15-1.26-.46-2.4-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35z"/>
+                </svg>
+              </a>
+              <a href="https://github.com/Zabeeh-Ullah-Dev" class="social-icon-btn" aria-label="Explore Zabeeh Ullah on GitHub" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+              <a href="mailto:zabeehullah2005@gmail.com" class="social-icon-btn" aria-label="Email Zabeeh Ullah">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect>
+                  <polyline points="3 7 12 13 21 7"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Destinations</h4>
+            <ul class="footer-links-list">
+              <li><a href="#destinations" class="footer-link">Hunza Valley, Gilgit-Baltistan</a></li>
+              <li><a href="#destinations" class="footer-link">Skardu & Katpana Cold Desert</a></li>
+              <li><a href="#destinations" class="footer-link">Swat Valley & Kalam</a></li>
+              <li><a href="#destinations" class="footer-link">Fairy Meadows & Nanga Parbat</a></li>
+              <li><a href="#destinations" class="footer-link">Lahore Walled City & Fort</a></li>
+              <li><a href="#destinations" class="footer-link">Hingol & Kund Malir Beach</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Travel Guides</h4>
+            <ul class="footer-links-list">
+              <li><a href="#travel-guides" class="footer-link">5 Days in Hunza Valley</a></li>
+              <li><a href="#travel-guides" class="footer-link">7 Days Exploring Skardu</a></li>
+              <li><a href="#travel-guides" class="footer-link">3 Days in Swat & Kalam</a></li>
+              <li><a href="#travel-guides" class="footer-link">Weekend in Lahore's Walled City</a></li>
+              <li><a href="#travel-guides" class="footer-link">4 Days in Neelum Valley</a></li>
+              <li><a href="#planner-section" class="footer-link">Interactive Trip Planner</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Traveler Advisory</h4>
+            <ul class="footer-links-list">
+              <li><span class="footer-link">High Altitude Acclimatization</span></li>
+              <li><span class="footer-link">Currency: Pakistani Rupee (PKR)</span></li>
+              <li><span class="footer-link">Emergency Helpline: 1422 (Tourism Police)</span></li>
+              <li><a href="#developer" class="footer-link">Meet the Developer (Zabeeh Ullah)</a></li>
+              <li><a href="#about-us" class="footer-link">Ethics & Environmental Code</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Safar-e-Pakistan. Designed & Engineered with pride by <a href="#developer" style="color: var(--sandstone-300); text-decoration: underline; text-underline-offset: 3px; font-weight: 600;">Zabeeh Ullah</a>.</p>
+          <p>Illustrative editorial portal. All pricing benchmarks are in Pakistani Rupees (PKR).</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==========================================================================
+         Modals & Drawers
+         ========================================================================== -->
+    <!-- Destination Detail Modal -->
+    <div class="modal-overlay" id="destination-modal" role="dialog" aria-modal="true" aria-label="Destination Details">
+      <div class="modal-dialog">
+        <button type="button" class="modal-close-btn" id="close-dest-modal-btn" aria-label="Close dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <div id="destination-modal-content">
+          <!-- Populated dynamically via JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Saved Destinations Drawer -->
+    <aside class="saved-drawer" id="saved-drawer" aria-label="Saved Destinations Drawer">
+      <div class="saved-drawer-header">
+        <div>
+          <h3>My Saved Places</h3>
+          <span style="font-size: 0.8rem; color: var(--sandstone-300);">Bookmarked Pakistani Destinations</span>
+        </div>
+        <button type="button" class="modal-close-btn" id="close-saved-drawer-btn" style="position: static;" aria-label="Close saved drawer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="saved-drawer-content" id="saved-items-container">
+        <!-- Rendered via JavaScript -->
+      </div>
+      <div style="padding: 1.5rem; border-top: 1px solid var(--border-medium); background: var(--ivory-50);">
+        <a href="#planner-section" class="btn btn-emerald" style="width: 100%;" onclick="window.closeSavedDrawer()">
+          Plan Trip with Saved Places
+        </a>
+      </div>
+    </aside>
+
+    <!-- Back to Top Floating Action -->
+    <button type="button" class="back-to-top-btn" id="back-to-top-btn" aria-label="Back to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <!-- Interactive Feedback Toast Notification -->
+    <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+      <div class="toast-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+      <span class="toast-text" id="toast-text">Copied to clipboard!</span>
+    </div>
+
+    <!-- Vanilla JavaScript Core -->
+    <script src="script.js"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
